@@ -1,0 +1,92 @@
+*{
+    font-family: 'Bebas Neue', cursive;
+}
+
+body{
+    margin: 0;
+}
+
+.menu-container div{
+    padding-top: 25px;
+}
+
+.none{
+    display: none;
+}
+
+.burger:hover{
+    transition: all .2s ease-in-out; 
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.burger{
+    display: flex;
+    flex-direction: column;
+    background-color: #7842f5;
+    height: 50px;
+    width: 50px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.line{
+    width: 35px;
+    height: 2px;
+    background-color: white;
+    margin: 4px;
+}
+
+.close-button{
+    background-color: #7842f5;
+    color: white;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    margin-top: 500px;
+    margin-left: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-container{
+    position: fixed;
+    overflow-x: hidden;
+    top: 0;
+    background-color: #7842f5;
+    height: 450px;
+    width: 300px;
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+    border-bottom-right-radius: 100%;
+    transition: 0.8s;
+}
+
+.half-moon{
+    position: absolute;
+    top: 0;
+    background-color: #be9fed;
+    height: 450px;
+    width: 400px;
+    border-bottom-right-radius: 100%;
+    transition: 0.8s;
+}
+
+.grow { 
+    transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.close-button:hover{
+    transform: scale(1.2);
+}
